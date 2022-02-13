@@ -1,1 +1,1 @@
-SELECT * FROM northwind.purchase_orders WHERE notes BETWEEN 'Purchase generated based on Order #30' and 'Purchase generated based on Order #39';
+SELECT * FROM northwind.purchase_orders WHERE notes LIKE '%3_';
